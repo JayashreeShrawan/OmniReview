@@ -6,7 +6,7 @@ Tasks:
 2. Filter verified purchases
 3. Remove missing values
 4. Compute helpfulness ratio
-5. Export cleaned dataset
+5. Export cleaned dataset...
 """
 
 import pandas as pd
