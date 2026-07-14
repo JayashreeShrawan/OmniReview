@@ -33,6 +33,20 @@ The objectives of this project are to:
 - Compare the proposed multi-model architecture with baseline approaches through comprehensive experiments.
 
 ---
+# Research and Selection of Methods
+
+OmniReview combines multiple generative models to leverage their complementary strengths for controllable review generation.
+
+The selected methods include:
+
+- Variational Autoencoder (VAE) for learning a shared latent representation.
+- Transformer (T5 + LoRA) for conditional text generation.
+- Diffusion Models for semantic refinement.
+- Generative Adversarial Networks (GANs) for improving generation quality.
+- Normalizing Flows for modeling review helpfulness.
+
+These methods were selected based on recent research demonstrating their effectiveness in text generation, latent representation learning, and controllable generation.
+
 
 # Dataset
 
@@ -58,6 +72,20 @@ The dataset contains millions of customer reviews collected across multiple prod
 - Product Category
 
 The dataset is filtered to verified purchases with sufficient voting information to improve label quality and reduce noise.
+
+---
+# Benchmarking
+
+The selected models were compared based on their strengths and suitability for the project.
+
+| Model | Purpose | Strength |
+|--------|---------|----------|
+| VAE | Latent Representation | Learns compact semantic embeddings |
+| T5 + LoRA | Text Generation | Produces fluent conditional text |
+| Diffusion | Refinement | Improves semantic consistency |
+| GAN | Quality Assessment | Encourages realistic generations |
+| Normalizing Flow | Helpfulness Prediction | Models continuous probability distributions |
+
 
 ---
 
@@ -122,6 +150,25 @@ Each model contributes a unique capability toward generating coherent, fluent, d
 
 ---
 
+
+# Preliminary Experiments
+
+The following milestones have been completed:
+
+- Dataset preprocessing and cleaning
+- Train/Validation/Test split generation
+- Initial implementation of all five generative models:
+  - Variational Autoencoder (VAE)
+  - Transformer (T5 + LoRA)
+  - Diffusion Model
+  - GAN
+  - Normalizing Flow
+- Repository organization and modular code structure
+
+These preliminary experiments establish the foundation for model training, integration, and evaluation.
+
+---
+
 # Installation
 
 Clone the repository:
@@ -183,17 +230,19 @@ The project will evaluate model performance using:
 
 # Current Project Status
 
+# Current Project Status
+
 - [x] Project Proposal
 - [x] Repository Created
 - [x] Repository Structure
 - [x] Documentation Setup
-- [x] Data Preprocessing Pipeline (Initial)
-- [ ] Dataset Preparation
-- [ ] VAE Implementation
-- [ ] Transformer (T5 + LoRA)
-- [ ] Diffusion Model
-- [ ] GAN Integration
-- [ ] Normalizing Flow
+- [x] Data Preprocessing Pipeline
+- [x] Dataset Preparation
+- [x] VAE Implementation
+- [x] Transformer (T5 + LoRA)
+- [x] Diffusion Model
+- [x] GAN Integration
+- [x] Normalizing Flow
 - [ ] Model Training
 - [ ] Evaluation
 - [ ] Final Report
