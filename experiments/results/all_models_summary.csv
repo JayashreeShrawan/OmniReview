@@ -1,0 +1,7 @@
+,loss,accuracy,f1_macro,final_loss,final_perplexity,Coherence,GAN_AUC,Gen_Quality
+TextCNN_Classifier,1.606712917,0.22721915,0.07586672,,,,,
+LSTM_Baseline,,,,1.746411123,5.73398713,,,
+OmniReview_Full,,,,,,0.012092385,1,0.860000002
+No_Diffusion (VAE only),,,,,,0.691646099,0.9,0.731000001
+No_Flow,,,,,,0.011850538,0.85,0.774000001
+Random_Baseline,,,,,,0.001338554,0.5,0
