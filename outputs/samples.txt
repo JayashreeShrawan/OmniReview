@@ -1,0 +1,150 @@
+[Apparel, 1, Q:1.00]
+Headline: not worth the money Body: i bought these for my son and they were very nice. it was too small to wear, so he did not want to buy them.
+
+[Apparel, 1, Q:1.00]
+Headline: not worth the money Body: i bought these for my son and they were very nice. it was so small that he could wear them on his own.
+
+[Apparel, 2, Q:0.00]
+Headline: not as advertised Body: i bought these for my daughter and they were very small. the size is too small, but it's not so large.
+
+[Apparel, 2, Q:1.00]
+Headline: not as advertised Body: i bought these for my daughter and they were very comfortable. the material was so small that she could wear them on her own.
+
+[Apparel, 3, Q:1.00]
+Headline: not as advertised Body: i bought these for my daughter and they are very comfortable. the dress is so small that she can't wear them in any way, but it's too big for me.
+
+[Apparel, 3, Q:1.00]
+Headline: not as advertised Body: i bought these for my daughter and they are very comfortable. the dress is so small that she can't wear them in any way, but it's just too small.
+
+[Apparel, 4, Q:1.00]
+Headline: i love it! Body: this is a great fit for me. it's very comfortable and fits well, but not too tight.
+
+[Apparel, 4, Q:1.00]
+Headline: i love it! Body: this is a great fit for me. it's very comfortable and fits well, but not too tight.
+
+[Apparel, 5, Q:1.00]
+Headline: i love it! Body: this is a great fit for me. the dress is very comfortable and fits well.
+
+[Apparel, 5, Q:1.00]
+Headline: i love it! Body: this is a great fit for me. the dress is very comfortable and fits well.
+
+[Books, 1, Q:1.00]
+Headline: not worth the money Body: i bought this book for my wife and she was very happy with it. her husband's books were so good that she had to buy one of them.
+
+[Books, 1, Q:1.00]
+Headline: disappointing Body: i bought this book because of the fact that it's not an easy read, but rather a good one. there is no way to tell you how to do it.
+
+[Books, 2, Q:1.00]
+Headline: not a good book Body: i've read many of the books, but this one isn't for anyone who wants to know how to do it. if you want to learn more about what you are looking for in your life, you have to be aware that
+
+[Books, 2, Q:0.00]
+Headline: not a good book Body: i've read many of the books, but this one isn't for anyone who wants to know how to do it. if you want to learn more about what you are looking for in your life, you have to be aware that
+
+[Books, 3, Q:0.00]
+Headline: not a good book Body: this book is very interesting, but it's worth the money. however, there are many other books that have been written for years.
+
+[Books, 3, Q:0.00]
+Headline: not a good book Body: this book is very interesting, but it's worth the money. however, there are many other books that have been written for years.
+
+[Books, 4, Q:1.00]
+Headline: a great book for beginners Body: this book is an excellent book, but it's not the only one that can be found in any of the above books. there are many different types of books to choose from.
+
+[Books, 4, Q:1.00]
+Headline: a great book for beginners Body: this book is an excellent book, but it's not the only one that can be found in any of the above books. there are many different types of books to choose from.
+
+[Books, 5, Q:1.00]
+Headline: the best book i've ever read. Body: this is a great book for anyone who wants to learn more about how to do it. if you have any questions, please contact us today.
+
+[Books, 5, Q:1.00]
+Headline: the best book i've ever read. Body: this is a great book for anyone who wants to learn more about how to do it. if you have any questions, please contact us today.
+
+[Camera, 1, Q:1.00]
+Headline: not worth the money Body: i bought this camera for my sony dslr and it was very hard to find out how to use it.
+
+[Camera, 1, Q:1.00]
+Headline: not worth the money Body: i bought this camera for my sony dslr and it was very hard to find out how to use it.
+
+[Camera, 2, Q:1.00]
+Headline: not as advertised Body: i bought this camera for my sony dslr, and it was very nice to see the pictures on the other side of the page. however, if you are looking for a new one, you can get some photos from the same site.
+
+[Camera, 2, Q:1.00]
+Headline: not as advertised Body: i bought this camera for my sony dslr, and it was very nice to see the picture. if you are looking for a new one, then you can use it with your own lens.
+
+[Camera, 3, Q:1.00]
+Headline: great camera Body: i bought this camera for my sony dslr, and it's very nice to have one of them. the only problem is that the camera does not work properly.
+
+[Camera, 3, Q:1.00]
+Headline: not as good as i expected Body: this is a great camera for the price. it's easy to use, but you can't get anything wrong with it.
+
+[Camera, 4, Q:1.00]
+Headline: great camera Body: i bought this camera for my sony dslr, and it's very easy to use. the quality of the camera is excellent.
+
+[Camera, 4, Q:1.00]
+Headline: great camera Body: i bought this camera for my sony dslr, and it's very easy to use. the quality of the camera is excellent.
+
+[Camera, 5, Q:1.00]
+Headline: great camera Body: i bought this camera for my sony dslr, and it's easy to use. the quality of the camera is very good.
+
+[Camera, 5, Q:1.00]
+Headline: great camera Body: i bought this camera for my sony dslr, and it's easy to use. the quality of the camera is very good.
+
+[Digital_Video_Games, 1, Q:1.00]
+Headline: don't waste your money Body: i bought this game for my son, and it was not worth the money.
+
+[Digital_Video_Games, 1, Q:1.00]
+Headline: not worth the money Body: i bought this game for my son, and it was very hard to play.
+
+[Digital_Video_Games, 2, Q:1.00]
+Headline: not worth the money Body: i bought this game for my wife and she was very happy with it. her husband's story is pretty good, but they aren't as good as the original version of the game.
+
+[Digital_Video_Games, 2, Q:1.00]
+Headline: not worth the money Body: i bought this game for my wife and she was very happy with it. her husband's work is pretty good, but they aren't as good as others.
+
+[Digital_Video_Games, 3, Q:0.00]
+Headline: great game Body: i bought this game for my wife and she was very happy with it. the game is pretty good, but there is no way to do that.
+
+[Digital_Video_Games, 3, Q:1.00]
+Headline: great game Body: i bought this game for my wife and she was very happy with it. the game is pretty good, but they are not as good as the original version.
+
+[Digital_Video_Games, 4, Q:1.00]
+Headline: great game Body: i bought this game for my son, and it's really fun to play.
+
+[Digital_Video_Games, 4, Q:0.00]
+Headline: great game Body: i bought this game for my son, and it's really fun to play.
+
+[Digital_Video_Games, 5, Q:1.00]
+Headline: great game! Body: i bought this game for my son, and it's very fun to play. he played the game with his wife, she was so excited about it.
+
+[Digital_Video_Games, 5, Q:1.00]
+Headline: great game! Body: i bought this game for my son, and it's very fun to play. he played the game with his wife and a little bit of humor.
+
+[Electronics, 1, Q:1.00]
+Headline: not worth the money Body: i bought this for my sony hdmi and it worked great. he was very disappointed with the quality of the product.
+
+[Electronics, 1, Q:1.00]
+Headline: not worth the money Body: i bought this for my sony hdmi, and it's very expensive. but when he was in charge of his phone, a lot of people were going to buy them.
+
+[Electronics, 2, Q:1.00]
+Headline: not as good as i expected Body: the sound quality is very good, but it's too bad for me.
+
+[Electronics, 2, Q:1.00]
+Headline: not as advertised Body: i bought this product for my wife and she was very impressed with the quality of the product. however, it isn't that good at all.
+
+[Electronics, 3, Q:1.00]
+Headline: i'm not sure what to expect Body: this is a good product, but the sound quality is very good. it's great for my son and his wife.
+
+[Electronics, 3, Q:1.00]
+Headline: i'm not sure how to use it. Body: this is a good product for the price, but if you are looking for something that can be used in your home or office, then you have to buy one of these headphones.
+
+[Electronics, 4, Q:0.00]
+Headline: great sound, but a little too small Body: i bought this for my sony hdmi and it's very good. the quality of the product is excellent.
+
+[Electronics, 4, Q:1.00]
+Headline: great sound, but a little too small Body: i bought this for my wife and she was very happy with the quality of the product. it's really nice to hear from her friends who have been using them for years now.
+
+[Electronics, 5, Q:1.00]
+Headline: great product! Body: i bought this for my sony hdmi, and it's very easy to use. the sound quality is excellent.
+
+[Electronics, 5, Q:1.00]
+Headline: great product! Body: i bought this for my sony hdmi, and it's very easy to use. the sound quality is excellent.
+
