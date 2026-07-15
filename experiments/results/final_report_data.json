@@ -1,0 +1,17 @@
+{
+  "project": "OmniReview",
+  "total_models": 7,
+  "custom_models": 6,
+  "dataset": "Amazon US Customer Reviews",
+  "categories": 5,
+  "total_samples": 110289,
+  "train_samples": 88231,
+  "val_samples": 11029,
+  "test_samples": 11029,
+  "embedding_dim": 384,
+  "latent_dim": 128,
+  "generated_reviews": 50,
+  "real_coherence": 0.3080790340900421,
+  "pipeline_coherence": 0.012092385441064835,
+  "gan_auc": 1.0
+}
