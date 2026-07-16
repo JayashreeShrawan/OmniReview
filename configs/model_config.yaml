@@ -1,0 +1,24 @@
+# OmniReview Model Configuration
+
+model_name: OmniReview
+
+# Data
+dataset_path: data/processed/processed_reviews.csv
+
+# Output
+output_path: outputs/generated_reviews.txt
+
+# Model Parameters
+embedding_dim: 384
+latent_dim: 128
+
+# Generation
+num_samples: 10
+category_index: 0
+rating: 5
+
+# Device
+device: cuda
+
+# Random Seed
+seed: 42
