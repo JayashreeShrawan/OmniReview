@@ -2,46 +2,46 @@
 model_runner.py
 
 Runs the complete OmniReview inference pipeline.
+
+This script:
+1. Loads the processed dataset
+2. Loads the OmniReview generation pipeline
+3. Generates sample product reviews
+4. Saves the generated outputs
 """
 
 from data_loader import load_dataset
-
-# Import your pipeline
 from models.pipeline import generate_omnireview
+from utils.helpers import (
+    create_output_directory,
+    save_generated_reviews,
+    set_seed,
+    print_status,
+)
 
 OUTPUT_FILE = "outputs/generated_reviews.txt"
-
 DATA_PATH = "data/processed/processed_reviews.csv"
 
 
-def save_outputs(results):
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-
-        for i, review in enumerate(results):
-
-            f.write(f"Sample {i+1}\n")
-            f.write(f"Category : {review['category']}\n")
-            f.write(f"Rating : {review['star_rating']}\n")
-            f.write(f"Helpfulness : {review['helpfulness']:.3f}\n")
-            f.write(f"GAN Quality : {review['gan_quality']:.3f}\n")
-            f.write(f"Review :\n{review['text']}\n")
-            f.write("-"*60 + "\n")
-
-    print("Outputs saved successfully.")
-
-
 def main():
+    """Run the complete OmniReview pipeline."""
 
-    print("Loading dataset...")
+    # Set random seed
+    set_seed(42)
 
+    # Create outputs directory
+    create_output_directory()
+
+    # Load dataset
+    print_status("Loading processed dataset...")
     dataset = load_dataset(DATA_PATH)
 
     if dataset is None:
-
+        print("Dataset could not be loaded.")
         return
 
-    print("Running OmniReview pipeline...")
+    # Run generation
+    print_status("Running OmniReview pipeline...")
 
     results = generate_omnireview(
         category_idx=0,
@@ -49,11 +49,12 @@ def main():
         num_samples=10
     )
 
-    save_outputs(results)
+    # Save generated reviews
+    save_generated_reviews(results, OUTPUT_FILE)
 
-    print("Pipeline completed successfully.")
+    print_status("Pipeline completed successfully.")
+    print_status(f"Generated reviews saved to {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
-
     main()
