@@ -1,24 +1,47 @@
 # OmniReview Model Configuration
+# All hyperparameters and paths for the pipeline.
 
-model_name: OmniReview
+model:
+  embedding_dim: 384
+  latent_dim: 128
+  num_categories: 5
+  num_ratings: 5
 
-# Data
-dataset_path: data/processed/processed_reviews.csv
+training:
+  batch_size: 64
+  learning_rate: 0.001
+  seed: 42
+  epochs:
+    cnn: 10
+    rnn: 15
+    vae: 15
+    t5: 5
+    flow: 20
+    diffusion: 15
+    gan: 5
 
-# Output
-output_path: outputs/generated_reviews.txt
+paths:
+  data_dir: "data"
+  checkpoint_dir: "checkpoints"
+  output_dir: "outputs"
 
-# Model Parameters
-embedding_dim: 384
-latent_dim: 128
+flow:
+  num_layers: 8
+  hidden_features: 64
+  context_features: 32
 
-# Generation
-num_samples: 10
-category_index: 0
-rating: 5
+diffusion:
+  num_steps: 100
+  beta_start: 0.0001
+  beta_end: 0.02
 
-# Device
-device: cuda
+gan:
+  learning_rate: 0.0002
+  betas: [0.5, 0.999]
 
-# Random Seed
-seed: 42
+t5:
+  model_name: "t5-small"
+  lora_r: 8
+  lora_alpha: 32
+  lora_dropout: 0.1
+  max_length: 128
