@@ -1,6 +1,8 @@
 # OmniReview — Data Download, Cleaning & Splitting
 # Extracted from OmniReview_Colab.ipynb
 
+from config import *
+
 import os
 
 os.environ['KAGGLE_USERNAME'] = "Senthilrulz"
