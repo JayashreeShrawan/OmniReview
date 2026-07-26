@@ -4,7 +4,7 @@
 
 import os
 import zipfile
-from utils.helpers import Timer
+from utils.utils.helpers import Timer
 from config import *
 
 os.environ['KAGGLE_USERNAME'] = "Senthilrulz"
