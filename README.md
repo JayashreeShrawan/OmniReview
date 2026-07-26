@@ -86,7 +86,24 @@ pip install -r requirements.txt
 
 ---
 
-## 3. Prepare Dataset
+
+## 3. Prepare Dataset & Checkpoints
+
+Because the preprocessed .parquet data, .npy embeddings, and model .pt checkpoints are too large for GitHub (over 300MB combined), they are hosted on Google Drive.
+
+*Option A: Download via Colab (Recommended)*
+You can run the end-to-end pipeline directly in our provided Colab notebook, which automatically clones this repository and downloads all data and checkpoints:
+- Open notebooks/demo_pipeline.ipynb in Google Colab.
+
+*Option B: Download Locally*
+If you wish to run model_runner.py locally on your machine, download the backup archive from Google Drive and extract it into the project root:
+- *Download Link:* https://drive.google.com/uc?id=1yD4SyTP58gV9e_Mbze8DG2BY-l6UJ88r
+- Extract the contents so that the data/ and checkpoints/ directories are populated.
+
+*Option C: Generate Mock Data (For local testing without downloading)*
+To quickly test the pipeline execution without the real data or checkpoints, generate mock files:
+```bash
+python utils/generate_mocks.py
 
 Ensure the following files are available inside `data/`
 
