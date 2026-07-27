@@ -3,10 +3,7 @@
 
 
 import os
-import zipfile
-import pandas as pd
-from utils.utils.helpers import Timer
-from config import *
+
 
 os.environ['KAGGLE_USERNAME'] = "Senthilrulz"
 
