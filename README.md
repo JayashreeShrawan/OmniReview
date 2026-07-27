@@ -89,6 +89,8 @@ pip install -r requirements.txt
 
 ## 3. Prepare Dataset & Checkpoints
 
+
+
 Because the preprocessed .parquet data, .npy embeddings, and model .pt checkpoints are too large for GitHub (over 300MB combined), they are hosted on Google Drive.
 
 *Option A: Download via Colab (Recommended)*
